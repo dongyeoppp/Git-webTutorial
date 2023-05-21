@@ -1,5 +1,5 @@
 def shopping(shop_file):
-    shop_dict = {} # 생성할 사전 객체
+    shop_dict = {}
 
     with open(code_path / shop_file, mode='r', encoding='utf-8') as f:    
       for line in f:
